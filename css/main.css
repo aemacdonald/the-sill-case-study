@@ -3,6 +3,7 @@
 }
 
 
+
 html {
     box-sizing: border-box;
 }
@@ -11,3 +12,36 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+body {
+    font-family: starling, serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.component__code_green {
+    color: white;
+    text-align: center;
+    background-color: #1AAA85;
+    padding: 1px;
+    
+}
+.topbar {
+    color: white;
+}
+
+
+.nav-bar {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat (5, 1fr 2fr);
+    grid-template-rows: repeat (10, 10px);
+    color: black;
+    border: 1px solid khaki;  
+}
+
