@@ -1,8 +1,7 @@
-:root {
 
-}
-
-
+/** 
+ * Layout Defaults 
+**/
 
 html {
     box-sizing: border-box;
@@ -15,7 +14,7 @@ html {
 
 body {
     font-family: starling, serif;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -24,24 +23,87 @@ a {
     color: black;
 }
 
+/**
+  * Green Bar 
+**/
+
 .component__code_green {
     color: white;
     text-align: center;
     background-color: #1AAA85;
     padding: 1px;
+    font-family: starling, serif;
     
 }
 .topbar {
     color: white;
 }
 
+/**
+  * Navigation Bar
+**/
 
 .nav-bar {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat (5, 1fr 2fr);
-    grid-template-rows: repeat (10, 10px);
+    grid-template-rows: repeat (5, 1fr 2fr);
     color: black;
-    border: 1px solid khaki;  
+    padding: 0 auto; 
+    margin: 0 auto; 
 }
+
+.the {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.sill {
+    grid-column: 10 / 10;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.item1 {
+    grid-column: 1/1;
+}
+
+.item2 {
+    grid-column: 2 / 3;
+}
+
+.item3 {
+    grid-column: 4 / 8;
+}
+.item6 {
+    padding-right: 1px;
+    grid-column: 10/10;
+}
+
+/**
+  * Body Copy
+**/
+
+.body_copy {
+    line-height: 1.5rem;
+    padding: 2rem;
+    
+}
+
+/**
+  * Button 
+**/
+
+.button1 {
+    background-color: #1AAA85;;
+    color: #fff;
+    padding: 19px;
+    width: 140px;
+    margin: 3px;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
 
