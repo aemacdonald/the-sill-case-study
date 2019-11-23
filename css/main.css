@@ -1,3 +1,40 @@
+:root Tenez Bold
+
+font-family: tenez, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Tenez Bold Italic
+
+font-family: tenez, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Tenez Italic
+
+font-family: tenez, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Tenez Regular
+
+font-family: tenez, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+
 
 /** 
  * Layout Defaults 
@@ -13,8 +50,8 @@ html {
 }
 
 body {
-    font-family: starling, serif;
-    font-weight: 100;
+    font-family: tenez, sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -32,7 +69,7 @@ a {
     text-align: center;
     background-color: #1AAA85;
     padding: 1px;
-    font-family: starling, serif;
+    font-family: tenez, sans-serif;
     
 }
 .topbar {
