@@ -128,7 +128,7 @@ a {
 }
 
 /**
-  * Button 
+  * Buttons 
 **/
 
 .button1 {
@@ -141,6 +141,25 @@ a {
     text-align: center;
     display: block;
     text-decoration: none;
+}
+
+
+.shop {
+   color: #1AAA85;
+   padding: 10px;
+   width: 140px;
+   margin: 3px;
+   border-radius: 3px;
+   text-align: center;
+   display: block;
+}
+.shop_title {
+    color: #1AAA85;
+    font-weight: bold;
+}
+.shop_arrow {
+    max-width: 10%;
+    padding-left: 10px;
 }
 
 
