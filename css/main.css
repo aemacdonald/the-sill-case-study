@@ -7,24 +7,6 @@ font-weight: 700;
 font-style: normal;
 
 
-Tenez Bold Italic
-
-font-family: tenez, sans-serif;
-
-font-weight: 700;
-
-font-style: italic;
-
-
-Tenez Italic
-
-font-family: tenez, sans-serif;
-
-font-weight: 400;
-
-font-style: italic;
-
-
 Tenez Regular
 
 font-family: tenez, sans-serif;
@@ -59,7 +41,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
 /**
   * Green Bar 
 **/
@@ -127,6 +108,8 @@ a {
     
 }
 
+
+
 /**
   * Buttons 
 **/
@@ -162,4 +145,22 @@ a {
     padding-left: 10px;
 }
 
+.card-box {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat (5, 1fr 2fr);
+    grid-template-rows: repeat (5, 1fr 2fr);
+    color: black;
+    padding: 3rem; 
+    margin: 0 auto; 
+    border: 1px solid black;
+}
 
+.card-box1{
+   grid-column: initial;
+   border: 1px solid blue;
+}
+
+.card-box1_img {
+    width: 50%;
+}
