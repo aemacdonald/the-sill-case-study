@@ -56,10 +56,18 @@ img {
     background-color: #1AAA85;
     padding: 1px;
     font-family: tenez, sans-serif;
-    
 }
 
+.topbar {
+    color: white;
+}
+  
+/**
+    *HERO
+**/
+
 .hero {
+    border: 1px solid lightsalmon;
     padding: 10px;
     background-image: url("../images/mini-sucs.jpg");
 }
@@ -69,10 +77,6 @@ img {
     margin: 10px;
     font-weight: bold;
     font-size: 3rem;
-}
-
-.topbar {
-    color: white;
 }
 
 /**
@@ -110,6 +114,45 @@ img {
     
 }
 
+.page {
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+.p1 {
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.p2 {
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.p3 {
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.invite {
+    background-color: lightgrey;
+    padding: 5rem;
+}
+.title/p {
+    float: left;
+}
+.text-enter {
+    float: right;
+   
+}
 
 
 /**
@@ -158,3 +201,4 @@ img {
 .card-box_img {
     width: 95%;
 }
+
