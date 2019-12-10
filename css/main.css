@@ -79,6 +79,8 @@ img {
     font-size: 3rem;
 }
 
+
+
 /**
   * Navigation Bar
 **/
@@ -152,6 +154,21 @@ img {
 .text-enter {
     float: right;
    
+}
+.nav-footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem;
+    margin: 1rem;
+  }
+
+.fig-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 
